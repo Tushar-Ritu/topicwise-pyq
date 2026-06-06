@@ -63,16 +63,24 @@ a{
 
 .card{
   background:#1d2a44;
-  padding:25px;
-  margin:20px 0;
-  border-radius:20px;
+  padding:18px;
+  margin:15px 0;
+  border-radius:18px;
   box-shadow:0 4px 10px rgba(0,0,0,0.3);
 }
 
 .card h2{
-  margin-top:0;
+  margin:0;
+  font-size:28px;
 }
 
 .card p{
-  margin:10px 0;
+  margin-top:10px;
+  color:#cfd8dc;
+  font-size:15px;
+}
+
+h1{
+  text-align:center;
+  font-size:42px;
 }
