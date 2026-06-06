@@ -91,3 +91,54 @@
 </div>
 </body>
 </html>
+<a href="political-science.html">⬅ Back</a>
+
+<h1>🌍 The End of Bipolarity</h1>
+
+<!-- PASTE SEARCH BAR HERE -->
+
+<input type="text"
+id="searchInput"
+class="search"
+placeholder="🔍 Search Questions...">
+
+<div class="card">
+  <h2>📊 Chapter Analysis</h2>
+  ...
+</div>
+
+<div class="card">
+  <h2>🔥 Important Questions</h2>
+  ...
+</div>
+
+<div class="card">
+  <h2>📚 Previous Year Questions</h2>
+  ...
+</div>
+
+<!-- PASTE SCRIPT HERE -->
+
+<script>
+document.getElementById("searchInput").addEventListener("keyup", function() {
+
+let filter = this.value.toLowerCase();
+
+let cards = document.querySelectorAll(".card");
+
+cards.forEach(card => {
+
+if(card.innerText.toLowerCase().includes(filter)) {
+card.style.display = "";
+}
+else {
+card.style.display = "none";
+}
+
+});
+
+});
+</script>
+
+</body>
+</html>
