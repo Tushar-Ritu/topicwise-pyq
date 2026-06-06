@@ -1,168 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>The End of Bipolarity</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The End of Bipolarity</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <a href="political-science.html">⬅ Back</a>
 
-<h1>🌍 The End of Bipolarity</h1>
-
-<div class="card">
-  <h2>📊 Chapter Analysis</h2>
-  <p>Most Repeated Topic: Soviet Union Disintegration</p>
-  <p>Weightage: High</p>
-</div>
-
-<div class="card">
-  <h2>🔥 Important Questions</h2>
-  <p>1. Explain the disintegration of the Soviet Union.</p>
-  <p>2. What were the consequences of the end of bipolarity?</p>
-  <p>3. Discuss the emergence of the USA as a superpower.</p>
-</div>
-
-<div class="card">
-  <h2>📝 PYQs</h2>
-  <p><b>2024:</b> Explain the causes of Soviet disintegration. (5 Marks)</p>
-  <p><b>2023:</b> What is Bipolarity? (2 Marks)</p>
-  <p><b>2022:</b> Mention two consequences of the Cold War. (2 Marks)</p>
-</div>
-
-<div class="card">
-  <h2>🤖 AI Expected Questions</h2>
-  <p>1. Evaluate the impact of the Soviet collapse on world politics.</p>
-  <p>2. Why did the Cold War end?</p>
-</div>
-
-<div class="card">
-  <h2>🚀 Smart Revision</h2>
-  <p>Step 1: Learn Cold War basics.</p>
-  <p>Step 2: Study Soviet Union collapse.</p>
-  <p>Step 3: Revise PYQs.</p>
-  <p>Step 4: Attempt AI Expected Questions.</p>
-</div>
-<div class="card">
-  <h2>📚 Previous Year Questions</h2>
-
-  <p><b>2024 (5 Marks)</b><br>
-  Explain the causes of the disintegration of the Soviet Union.</p>
-
-  <p><b>2023 (2 Marks)</b><br>
-  What is meant by Bipolarity?</p>
-
-  <p><b>2022 (5 Marks)</b><br>
-  Discuss the consequences of the end of the Cold War.</p>
-
-</div>
-
-<div class="card">
-  <h2>🔥 Most Repeated Questions</h2>
-
-  <p>• Causes of Soviet Disintegration</p>
-  <p>• Shock Therapy</p>
-  <p>• CIS Formation</p>
-  <p>• End of Cold War</p>
-
-</div>
-
-<div class="card">
-  <h2>🤖 AI Expected Questions</h2>
-
-  <p>1. Explain the impact of the collapse of USSR on world politics.</p>
-
-  <p>2. Why is the USA called the sole superpower after 1991?</p>
-
-  <p>3. What is the significance of CIS?</p>
-
-</div>
-
-<div class="card">
-  <h2>📊 Topic Weightage</h2>
-
-  <p>⭐⭐⭐⭐⭐ Soviet Disintegration</p>
-  <p>⭐⭐⭐⭐ Shock Therapy</p>
-  <p>⭐⭐⭐⭐ Consequences of Bipolarity</p>
-  <p>⭐⭐⭐ CIS Formation</p>
-
-</div>
-</body>
-</html>
-<a href="political-science.html">⬅ Back</a>
-
-<h1>🌍 The End of Bipolarity</h1>
-
-<!-- PASTE SEARCH BAR HERE -->
-
-<input type="text"
-id="searchInput"
-class="search"
-placeholder="🔍 Search Questions...">
-
-<div class="card">
-  <h2>📊 Chapter Analysis</h2>
-  ...
-</div>
-
-<div class="card">
-  <h2>🔥 Important Questions</h2>
-  ...
-</div>
-
-<div class="card">
-  <h2>📚 Previous Year Questions</h2>
-  ...
-</div>
-
-<!-- PASTE SCRIPT HERE -->
-
-<script>
-document.getElementById("searchInput").addEventListener("keyup", function() {
-
-let filter = this.value.toLowerCase();
-
-let cards = document.querySelectorAll(".card");
-
-cards.forEach(card => {
-
-if(card.innerText.toLowerCase().includes(filter)) {
-card.style.display = "";
-}
-else {
-card.style.display = "none";
-}
-
-});
-
-});
-</script>
-
-</body>
-</html>
-<a href="political-science.html">⬅ Back</a>
-
-<h1>🌍 The End of Bipolarity</h1>
-
-<input type="text"
-id="searchInput"
-class="search"
-placeholder="🔍 Search Questions...">
-
-<select class="search">
-<option>All Years</option>
-<option>2024</option>
-<option>2023</option>
-<option>2022</option>
-<option>2021</option>
-<option>2020</option>
-</select>
-
-<div class="card">
-  <h2>📊 Chapter Analysis</h2>
-</div>
 <h1>🌍 The End of Bipolarity</h1>
 
 <input type="text"
@@ -188,5 +35,110 @@ placeholder="🔍 Search Questions...">
 </select>
 
 <div class="card">
-  <h2>📊 Chapter Analysis</h2>
+<h2>📊 Chapter Analysis</h2>
+<p>Most Repeated Topic: Soviet Union Disintegration</p>
+<p>Weightage: High</p>
 </div>
+
+<div class="card">
+<h2 onclick="toggleIQ()">🔥 Important Questions ▼</h2>
+
+<div id="iq" style="display:none;">
+
+<p>1. Explain the disintegration of the Soviet Union.</p>
+
+<p>2. What were the consequences of the end of bipolarity?</p>
+
+<p>3. Discuss the emergence of USA as a superpower.</p>
+
+</div>
+</div>
+
+<div class="card">
+<h2 onclick="togglePYQ()">📚 Previous Year Questions ▼</h2>
+
+<div id="pyq" style="display:none;">
+
+<p><b>2024:</b> Explain the causes of Soviet disintegration. (5 Marks)</p>
+
+<p><b>2023:</b> What is Bipolarity? (2 Marks)</p>
+
+<p><b>2022:</b> Mention two consequences of Cold War. (2 Marks)</p>
+
+</div>
+</div>
+
+<div class="card">
+<h2 onclick="toggleAI()">🤖 AI Expected Questions ▼</h2>
+
+<div id="ai" style="display:none;">
+
+<p>1. Explain the impact of USSR collapse on world politics.</p>
+
+<p>2. Why is USA called the sole superpower?</p>
+
+<p>3. What is the significance of CIS?</p>
+
+</div>
+</div>
+
+<div class="card">
+<h2 onclick="toggleTW()">📈 Topic Weightage ▼</h2>
+
+<div id="tw" style="display:none;">
+
+<p>⭐⭐⭐⭐⭐ Soviet Disintegration</p>
+
+<p>⭐⭐⭐⭐ Shock Therapy</p>
+
+<p>⭐⭐⭐⭐ Consequences of Bipolarity</p>
+
+<p>⭐⭐⭐ CIS Formation</p>
+
+</div>
+</div>
+
+<script>
+
+function toggleIQ(){
+var x=document.getElementById("iq");
+x.style.display=(x.style.display=="none")?"block":"none";
+}
+
+function togglePYQ(){
+var x=document.getElementById("pyq");
+x.style.display=(x.style.display=="none")?"block":"none";
+}
+
+function toggleAI(){
+var x=document.getElementById("ai");
+x.style.display=(x.style.display=="none")?"block":"none";
+}
+
+function toggleTW(){
+var x=document.getElementById("tw");
+x.style.display=(x.style.display=="none")?"block":"none";
+}
+
+document.getElementById("searchInput").addEventListener("keyup", function(){
+
+let filter=this.value.toLowerCase();
+
+let cards=document.querySelectorAll(".card");
+
+cards.forEach(card=>{
+
+if(card.innerText.toLowerCase().includes(filter)){
+card.style.display="";
+}else{
+card.style.display="none";
+}
+
+});
+
+});
+
+</script>
+
+</body>
+</html>
